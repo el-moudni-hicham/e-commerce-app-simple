@@ -73,19 +73,6 @@ DiscoveryClientRouteDefinitionLocator dynamicRoutes(ReactiveDiscoveryClient rdc,
 
 ## Billing Service
 
-#########
-
-# Frontend with Angular
-
-
-
-
-
-
-
-
-
-
 vault:
 
 `vault server -dev`
@@ -95,3 +82,8 @@ vault:
 `vault kv put secret/vault-ms user.username=root user.password=1234`
 
 `vault kv get secret/vault-ms`
+
+
+# Frontend with Angular
+
+
