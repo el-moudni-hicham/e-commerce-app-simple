@@ -86,4 +86,5 @@ vault:
 
 # Frontend with Angular
 
+![image](https://github.com/el-moudni-hicham/e-commerce-app-simple/assets/85403056/00354d0e-9a36-4267-b9dc-21929a1f1085)
 
