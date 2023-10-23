@@ -85,6 +85,17 @@ vault:
 
 
 # Frontend with Angular
+### All Products
 
 ![image](https://github.com/el-moudni-hicham/e-commerce-app-simple/assets/85403056/00354d0e-9a36-4267-b9dc-21929a1f1085)
+
+### All Customers 
+
+![image](https://github.com/el-moudni-hicham/e-commerce-app-simple/assets/85403056/72b9be2f-d35f-43a4-a8b6-c06bd335a948)
+
+### All Infos About a Product
+
+![image](https://github.com/el-moudni-hicham/e-commerce-app-simple/assets/85403056/522b9e11-5f41-45d1-a784-113f3e209579)
+
+
 
