@@ -1,0 +1,16 @@
+<div class="container">
+  <table class="table">
+    <thead>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Quantity</th>
+    </thead>
+    <tr *ngFor="let p of products._embedded.products">
+      <td>{{p.id}}</td>
+      <td>{{p.name}}</td>
+      <td>{{p.price}}</td>
+      <td>{{p.quantity}}</td>
+    </tr>
+  </table>
+</div>
