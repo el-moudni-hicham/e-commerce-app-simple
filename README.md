@@ -3,7 +3,7 @@
 ```
 The application is built using Spring Boot and Angular, and it uses a microservices architecture to make
 it scalable and maintainable.
-it contains 4 services :
+it contains 5 services :
 Customer Service, Inventory Service, Order Service, Billing Service, Config Service
 ```
 
@@ -24,15 +24,19 @@ The backend contains 5 services :
 ## Config Service
 `This service contain configuration of all services`
 
-we specify to folder of all config files :
+Specify the folder of all config files :
 
-`spring.cloud.config.server.git.uri=file:///D:/config-git-repo`
+```java 
+spring.cloud.config.server.git.uri=file:///D:/config-git-repo
+```
 
-start the consul server :
+Start the consul server :
 
-`consul agent -server -bootstrap-expect=1 -data-dir=consul-data -ui -bind=@IP`
+```java
+consul agent -server -bootstrap-expect=1 -data-dir=consul-data -ui -bind=@IP
+```
 
-To show registred services :
+Show all registred services :
 
 `http://localhost:8500/`
 
