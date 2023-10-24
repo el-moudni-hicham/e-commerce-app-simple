@@ -48,7 +48,7 @@ Show all registred services :
 Spring Cloud Gateway It provides a centralized entry point for routing and filtering requests
 to microservices in a distributed system, enabling dynamic and scalable routing based on various criteria.
 ````
-we use dynamic routing :
+We use dynamic routing :
 
 ```java
 @Bean
