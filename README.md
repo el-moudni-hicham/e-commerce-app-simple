@@ -52,7 +52,8 @@ we use dynamic routing :
 
 ```java
 @Bean
-DiscoveryClientRouteDefinitionLocator dynamicRoutes(ReactiveDiscoveryClient rdc, DiscoveryLocatorProperties dlp){
+DiscoveryClientRouteDefinitionLocator dynamicRoutes(ReactiveDiscoveryClient rdc,
+                                                    DiscoveryLocatorProperties dlp){
     return new DiscoveryClientRouteDefinitionLocator(rdc, dlp);
 }
 ```
